@@ -1,0 +1,29 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/supplementary/algebra.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/supplementary/module.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/supplementary/category.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/supplementary/ring.tex"
+    ],
+    "filename": "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/supplementary.tex",
+    "labels": [
+    ],
+    "modified": "Wed Aug 5 13:17:00 2026",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "0#基础代数学的必要补充#9",
+        "-1#supplementary/ring#38",
+        "-1#supplementary/module#39",
+        "-1#supplementary/algebra#41",
+        "-1#supplementary/category#44"
+    ],
+    "usercommands": [
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/supplementary/figures/Yoneda.tikz",
+    "labels": [
+    ],
+    "modified": "Wed Aug 5 13:17:00 2026",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "",
+            "\\mathcal{C}"
+        ],
+        [
+            "",
+            "\\mathrm{Hom}"
+        ],
+        [
+            "",
+            "\\mathcal{C}"
+        ],
+        [
+            "",
+            "\\mathrm{Hom}"
+        ],
+        [
+            "",
+            "\\mathcal{C}"
+        ],
+        [
+            "",
+            "\\mathrm{Hom}"
+        ],
+        [
+            "",
+            "\\mathcal{C}"
+        ],
+        [
+            "",
+            "\\mathcal{C}"
+        ],
+        [
+            "",
+            "\\mathrm{Hom}"
+        ],
+        [
+            "",
+            "\\mathcal{C}"
+        ],
+        [
+            "",
+            "\\mathrm{Hom}"
+        ],
+        [
+            "",
+            "\\mathrm{Nat}"
+        ],
+        [
+            "",
+            "\\mathsf{Set}"
+        ],
+        [
+            "",
+            "\\mathcal{C}"
+        ],
+        [
+            "",
+            "\\mathrm{Fct}"
+        ],
+        [
+            "",
+            "\\mathsf{Set}"
+        ],
+        [
+            "",
+            "\\mathcal{C}"
+        ],
+        [
+            "",
+            "\\mathrm{Hom}"
+        ]
+    ]
+}

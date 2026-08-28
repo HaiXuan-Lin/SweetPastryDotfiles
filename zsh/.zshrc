@@ -3,11 +3,10 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 # Oh My Zsh
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="simple"
-plugins=(git) # Nov 9, Lin disabled this line, deleted 'git'
+plugins=(git) # Lin disabled this line, deleted 'git'
 source $ZSH/oh-my-zsh.sh
 
 # Cling
-## 注意, 自己编译的在 ~/Documents/GitHub/cling-build/
 export SDKROOT="$(xcrun --show-sdk-path)"
 export PATH="/Users/Lin/Documents/GitHub/cling-build/bin:$PATH"
 
@@ -16,8 +15,7 @@ export WOLFRAMSCRIPT_KERNELPATH="/Applications/Wolfram/Wolfram Engine.app/Conten
 export PATH="/Applications/Wolfram/Wolfram Engine.app/Contents/Resources/Wolfram Player.app/Contents/MacOS:$PATH"
 
 # MATLAB
-## export DYLD_LIBRARY_PATH="/Applications/MATLAB_R2024b.app/bin/maca64:$DYLD_LIBRARY_PATH"     # 这部分会干扰 Anaconda 的 Qt 库导致无法启动 Anaconda
-export PATH="/Applications/MATLAB_R2025a.app/bin:$PATH"
+export PATH="/Applications/MATLAB_R2026a.app/bin:$PATH"
 
 # Alacrity
 export PATH="$PATH:/Applications/Alacritty.app/Contents/MacOS"
@@ -66,9 +64,21 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Homebrew
-HOMEBREW_NO_ENV_HINTS=1 # 隐藏提示, 视觉优化
-# homebrew 安装的 llvm, 不要使用
-# echo 'export PATH="/opt/homebrew/opt/llvm/bin:$PATH"' >> ~/.zshrc
-# export CMAKE_PREFIX_PATH="/opt/homebrew/opt/llvm"
-# export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
-# export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
+HOMEBREW_NO_ENV_HINTS=1 # Hide the hint
+export PATH="/opt/homebrew/bin:$PATH"
+
+# Cling (re-prioritize the self-built cling over Homebrew's, which the Homebrew PATH export above would otherwise shadow)
+export PATH="/Users/Lin/Documents/GitHub/cling-build/bin:$PATH"
+
+
+
+# Ruby
+# export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+eval "$(rbenv init - zsh)"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/Lin/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
+
+

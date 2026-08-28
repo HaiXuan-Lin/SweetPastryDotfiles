@@ -1,0 +1,32 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/appendix/chapter2.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/appendix/chapter3.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/appendix/chapter5.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/appendix/chapter1.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/appendix/chapter4.tex"
+    ],
+    "filename": "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/appendix.tex",
+    "labels": [
+    ],
+    "modified": "Wed Aug 5 13:17:06 2026",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "0#附录#4",
+        "-1#graph-theory#5",
+        "-1#appendix/chapter1#6",
+        "-1#appendix/chapter2#7",
+        "-1#appendix/chapter3#8",
+        "-1#appendix/chapter4#9",
+        "-1#appendix/chapter5#10"
+    ],
+    "usercommands": [
+    ]
+}

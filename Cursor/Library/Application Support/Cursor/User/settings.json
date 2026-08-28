@@ -1,0 +1,481 @@
+{
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "njpwerner.autodocstring"
+    },
+    "[latex]": {
+        "editor.defaultFormatter": "nickfode.latex-formatter"
+    },
+    "notebook.defaultFormatter": "njpwerner.autodocstring",
+    "security.workspace.trust.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#FFFFFF",
+        "editorCursor.background": "#FFFFFF"
+    },
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.list.horizontalScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.panel.opensMaximized": "always",
+    "workbench.settings.applyToAllProfiles": [
+        "terminal.integrated.cursorStyle",
+        "terminal.integrated.cursorStyleInactive"
+    ],
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.editorAssociations": {
+        "*.exe": "default",
+        "*.PDF": "latex-workshop-pdf-hook",
+        "*.pdf": "latex-workshop-pdf-hook",
+        "*.md": "default"
+    },
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingDelete": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "beforeWhitespace",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.fontFamily": "FiraCode Nerd Font Mono, JetBrainsMonoNL Nerd Font Mono",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "bold",
+    "editor.guides.bracketPairs": true,
+    "editor.lineHeight": 1.5,
+    "editor.minimap.size": "fit",
+    "editor.minimap.enabled": true,
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.wordWrap": "on",
+    "editor.tokenColorCustomizations": {
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        },
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.fileNesting.enabled": true,
+    "terminal.integrated.altClickMovesCursor": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt"
+    ],
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "block",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.fontFamily": "JetBrainsMonoNL Nerd Font Mono,  FiraCode Nerd Font Mono",
+    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.gpuAcceleration": "auto",
+    "terminal.integrated.macOptionIsMeta": true,
+    "terminal.integrated.smoothScrolling": true,
+    "custom-ui-style.external.imports": [
+        "file:///Users/Lin/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "animations.CursorAnimation": true,
+    "animations.Install-Method": "Custom UI Style",
+    "animations.UseCursorColorForCursorAnimation": true,
+    "animations.CursorAnimationOptions": {
+        "TrailLength": 2
+    },
+    "animations.Durations": {
+        "Command-Palette": 100,
+        "Tabs": 100,
+        "Active": 100,
+        "Scrolling": 100,
+        "Smooth-Mode": 100,
+        "Focus-Dimming": 100
+    },
+    "remoteHub.commitDirectlyWarning": "off",
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.useExecServer": false,
+    "remote.SSH.remotePlatform": {
+        "10.26.0.253": "linux",
+        "10.26.0.251": "linux",
+        "10.26.0.191": "linux",
+        "10.26.3.46": "linux",
+        "10.26.0.254": "linux"
+    },
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "window.titleBarStyle": "custom",
+    "window.dialogStyle": "custom",
+    "javascript.format.semicolons": "remove",
+    "typescript.format.semicolons": "remove",
+    "launch": {},
+    "latex-workshop.showContextMenu": true,
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.hover.command.enabled": true,
+    "latex-workshop.hover.citation.enabled": true,
+    "latex-workshop.hover.preview.cursor.enabled": true,
+    "latex-workshop.hover.preview.enabled": true,
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.external.synctex.command": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "-r",
+        "%LINE%",
+        "%PDF%",
+        "%TEX%"
+    ],
+    "latex-workshop.view.pdf.external.viewer.command": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "0",
+        "%PDF%"
+    ],
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.clean.method": "glob",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk (-pdf)",
+            "command": "latexmk",
+            "args": [
+                "-pdf",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "--shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "latexmk (-xelatex)",
+            "command": "latexmk",
+            "args": [
+                "-xelatex",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "--shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "latexmk (-lualatex)",
+            "command": "latexmk",
+            "args": [
+                "-lualatex",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "--shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "--shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "--shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk (-pdf)",
+            "tools": [
+                "latexmk (-pdf)"
+            ]
+        },
+        {
+            "name": "latexmk (-xelatex)",
+            "tools": [
+                "latexmk (-xelatex)"
+            ]
+        },
+        {
+            "name": "latexmk (-lualatex)",
+            "tools": [
+                "latexmk (-lualatex)"
+            ]
+        },
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "PDFLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "BibTeX",
+            "tools": [
+                "bibtex"
+            ]
+        },
+        {
+            "name": "Biber",
+            "tools": [
+                "biber"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "xelatex -> bibtex -> xelatex*2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex -> biber -> xelatex*2",
+            "tools": [
+                "xelatex",
+                "biber",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex -> biber -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "biber",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.dvi",
+        "*.synctex.gz",
+        "*.gz",
+        "*.pdf"
+    ],
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "C_Cpp.autoAddFileAssociations": true,
+    "C_Cpp.default.customConfigurationVariables": {},
+    "C_Cpp.files.exclude": {
+        "**/.vscode": true,
+        "**/.vs": true
+    },
+    "jupyter.askForKernelRestart": false,
+    "notebook.compactView": true,
+    "notebook.lineNumbers": "on",
+    "notebook.markup.fontSize": 16,
+    "notebook.output.fontFamily": "JetBrains Mono, Fira Code",
+    "notebook.output.fontSize": 16,
+    "notebook.output.lineHeight": 2,
+    "notebook.output.textLineLimit": 15,
+    "markdown-preview-enhanced.codeBlockTheme": "vs.css",
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+    "markdown-preview-enhanced.latexEngine": "xelatex",
+    "markdown-preview-enhanced.previewTheme": "github-light.css",
+    "markdown-preview-enhanced.printBackground": true,
+    "markdown-preview-enhanced.puppeteerWaitForTimeout": 3000,
+    "markdown-preview-enhanced.revealjsTheme": "moon.css",
+    "markdown-preview-enhanced.scrollSync": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.ignoreLegacyWarning": true,
+    "git.openRepositoryInParentFolders": "never",
+    "cmake.configureOnOpen": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "makefile.configureOnOpen": true,
+    "python.createEnvironment.trigger": "off",
+    "better-comments.highlightPlainText": true,
+    "vscode-office.openOutline": true,
+    "todohighlight.isEnable": false,
+    "animations.Enabled": true,
+    "apc.imports": [
+        "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "cSpell.userWords": [
+        "coloneqq",
+        "infty",
+        "mathbf",
+        "nvim"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-user": {
+            "name": "custom-dictionary-user",
+            "path": "~/.cspell/custom-dictionary-user.txt",
+            "addWords": true,
+            "scope": "user"
+        }
+    },
+    "cSpell.allowCompoundWords": true,
+    "conventionalCommits.showNewVersionNotes": false,
+    "gitlens.ai.model": "gitkraken",
+    "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+    "gitlens.ai.largePromptWarningThreshold": 100000,
+    "editor.inlineSuggest.enabled": false,
+    "editor.formatOnSave": true,
+    "explorer.sortOrder": "type",
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/Thumbs.db": false
+    },
+    "vscode_custom_css.imports": [],
+    "fortran.notifications.releaseNotes": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "cSpell.enabledSchemes": {
+        "comment": true,
+        "file": true,
+        "gist": true,
+        "repo": true,
+        "sftp": true,
+        "untitled": true,
+        "vscode-notebook-cell": true,
+        "vscode-scm": true,
+        "vscode-userdata": true,
+        "vscode-vfs": true,
+        "vsls": true,
+        "overleaf-workshop": true
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "claudeCode.useTerminal": true,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "markdown",
+        "scminput"
+    ]
+}

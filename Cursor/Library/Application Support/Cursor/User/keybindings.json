@@ -1,0 +1,365 @@
+// Place your key bindings in this file to override the defaults
+[
+    // >>> Run Code >>>
+    {
+        "key": "ctrl+shift+f10",
+        "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "ctrl+shift+f10",
+        "command": "latex-workshop.build",
+        "when": "!config.latex-workshop.bind.altKeymap.enabled && !virtualWorkspace && editorLangId =~ /^latex$|^latex-expl3$|^doctex$|^rsweave$|^jlweave$|^pweave$/"
+    },
+    {
+        "key": "ctrl+shift+f11",
+        "command": "latex-workshop.view",
+        "when": "!config.latex-workshop.bind.altKeymap.enabled && !virtualWorkspace && editorLangId =~ /^latex$|^latex-expl3$|^doctex$|^rsweave$|^jlweave$|^pweave$/"
+    },
+    {
+        "key": "ctrl+shift+f10",
+        "command": "code-runner.run"
+    },
+    // <<< Run Code <<<
+    // >>> Custom VIM >>>
+    // {
+    //     "key": "w",
+    //     "command": "cursorUp",
+    //     "when": "editorTextFocus && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "a",
+    //     "command": "cursorLeft",
+    //     "when": "editorTextFocus && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "s",
+    //     "command": "cursorDown",
+    //     "when": "editorTextFocus && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "d",
+    //     "command": "cursorRight",
+    //     "when": "editorTextFocus && vim.mode == 'Normal'"
+    // },
+    // {
+    //     "key": "ctrl+a",
+    //     "command": "-extension.vim_ctrl+a",
+    //     "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
+    // },
+    // {
+    //     "key": "ctrl+c",
+    //     "command": "-extension.vim_ctrl+c",
+    //     "when": "editorTextFocus && vim.active && vim.overrideCtrlC && vim.use<C-c> && !inDebugRepl"
+    // },
+    // <<< Custom VIM <<<
+    // >>> InsertLineAfter >>>
+    {
+        "key": "shift+enter",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-editor.action.insertLineAfter",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // <<< InsertLineAfter <<<
+    // >>> Cursor Move >>>
+    // Insert Mode
+    {
+        "key": "alt+l",
+        "command": "cursorEnd",
+        "when": "textInputFocus && !terminalFocus"
+    },
+    {
+        "key": "alt+q",
+        "command": "cursorHome",
+        "when": "textInputFocus && !terminalFocus"
+    },
+    {
+        "key": "alt+shift+l",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+shift+q",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "alt+a",
+        "command": "cursorLeft"
+    },
+    {
+        "key": "alt+d",
+        "command": "cursorRight"
+    },
+    {
+        "key": "alt+w",
+        "command": "cursorUp"
+    },
+    {
+        "key": "alt+s",
+        "command": "cursorDown"
+    },
+    {
+        "key": "alt+shift+w",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+            ]
+        }
+    },
+    {
+        "key": "alt+shift+s",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+            ]
+        }
+    },
+    {
+        "key": "alt+shift+a",
+        "command": "cursorWordStartLeft",
+    },
+    {
+        "key": "alt+shift+d",
+        "command": "cursorWordStartRight",
+    },
+    // Select Palette
+    {
+        "key": "alt+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetVisible"
+    },
+    {
+        "key": "alt+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetVisible"
+    },
+    {
+        "key": "alt+j",
+        "command": "selectNextCodeAction",
+        "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "alt+k",
+        "command": "selectPrevCodeAction",
+        "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    // Terminal
+    {
+        "key": "alt+q",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u0001"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u0005"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+a",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u001b[D"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+d",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u001b[C"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u001b[A"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u001b[B"
+        },
+        "when": "terminalFocus"
+    },
+    // <<< Cursor Move <<<
+    // {
+    //     "key": "alt+f",
+    //     "command": "latex-workshop.synctex",
+    //     "when": "editorTextFocus && !isMac"
+    // },
+    {
+        "key": "cmd+m",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'latex'",
+        "args": {
+            "snippet": "$${1}$"
+        }
+    },
+    {
+        "key": "cmd+m",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "$${1}$"
+        }
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "notebook.cell.executeAndInsertBelow",
+        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-notebook.cell.executeAndInsertBelow",
+        "when": "notebookCellListFocused && notebookCellType == 'markup' || notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "cmd+n",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "`$0`"
+        },
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "-workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.openEditorAtIndex4"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "-workbench.action.openEditorAtIndex4"
+    },
+    {
+        "key": "alt+3",
+        "command": "workbench.action.openEditorAtIndex3"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "-workbench.action.openEditorAtIndex3"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "-workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "alt+5",
+        "command": "workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "-workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "alt+6",
+        "command": "workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "-workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "alt+7",
+        "command": "workbench.action.openEditorAtIndex7"
+    },
+    {
+        "key": "ctrl+7",
+        "command": "-workbench.action.openEditorAtIndex7"
+    },
+    {
+        "key": "alt+8",
+        "command": "workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "-workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "alt+9",
+        "command": "workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "-workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "shift+enter",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\u001b\r"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "jupyter.runcurrentcell",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-jupyter.runcurrentcell",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.hascodecells && !editorHasSelection && !isCompositeNotebook && !notebookEditorFocused"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-notebook.cell.execute",
+        "when": "notebookCellListFocused && notebookMissingKernelExtension && !notebookCellExecuting && notebookCellType == 'code' || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelCount > 0 || notebookCellListFocused && !notebookCellExecuting && notebookCellType == 'code' && notebookKernelSourceCount > 0"
+    }
+]

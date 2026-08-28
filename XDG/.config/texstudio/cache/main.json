@@ -1,0 +1,45 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/coverpage.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/part3.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/physics1.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/preface.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/supplementary.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/part2.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/supplementary/chapter0.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/part1.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/appendix.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/algebra.tex"
+    ],
+    "filename": "/Users/Lin/Downloads/Group_Theory__in_Chinese_/main.tex",
+    "labels": [
+    ],
+    "modified": "Wed Aug 5 13:17:06 2026",
+    "packages": [
+        "#class-book",
+        "#latex-document",
+        "#tex",
+        "#macros",
+        "#GroupTheoryMacros"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "-1#coverpage#14",
+        "-1#parts/preface#30",
+        "-1#parts/supplementary/chapter0#43",
+        "-1#parts/part1#44",
+        "-1#parts/supplementary#45",
+        "-1#parts/part2#46",
+        "-1#parts/part3#47",
+        "-1#parts/algebra#48",
+        "-1#parts/physics1#51",
+        "-1#parts/appendix#54"
+    ],
+    "usercommands": [
+    ]
+}

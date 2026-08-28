@@ -1,0 +1,27 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/algebra/homological algebra.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/algebra/category-2.tex",
+        "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/algebra/quantum.tex"
+    ],
+    "filename": "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/algebra.tex",
+    "labels": [
+    ],
+    "modified": "Wed Aug 5 13:17:06 2026",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "0#代数学#9",
+        "-1#algebra/homological algebra#40",
+        "-1#algebra/category-2#41",
+        "-1#algebra/quantum#42"
+    ],
+    "usercommands": [
+    ]
+}

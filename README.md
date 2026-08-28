@@ -48,3 +48,12 @@ The --adopt option has two effects:
 2.	It creates a symbolic link for `~/.vimrc` pointing to `~/.dotfiles/vim/.vimrc`.
 
 This is generally safe, as it preserves your existing file and allows stow to manage it going forward.
+
+## VSCode / Cursor
+
+On macOS, VSCode and Cursor store their user config under `~/Library/Application Support/<App>/User/`. The `VSCode` and `Cursor` packages track only `settings.json`, `keybindings.json`, and `snippets/` — everything else in that folder (`History`, `globalStorage`, `workspaceStorage`, `sync`, `profiles`, ...) is machine-local cache/state and is intentionally left untracked.
+
+```sh
+cd ~/.dotfiles
+stow VSCode Cursor
+```

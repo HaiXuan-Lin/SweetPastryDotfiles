@@ -6,16 +6,48 @@
     "Session": {
         "Bookmarks": [
         ],
-        "CurrentFile": "../../../../usr/local/texlive/2024/texmf-dist/tex/latex/ntheorem/ntheorem.sty",
+        "CurrentFile": "../../Downloads/Group_Theory__in_Chinese_/main.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 24,
+                "Col": 0,
                 "EditorGroup": 0,
-                "FileName": "../../../../usr/local/texlive/2024/texmf-dist/tex/latex/ntheorem/ntheorem.sty",
-                "FirstLine": 984,
+                "FileName": "../../Downloads/Group_Theory__in_Chinese_/macros.sty",
+                "FirstLine": 85,
                 "FoldedLines": "",
-                "Line": 996
+                "Line": 104
+            },
+            {
+                "Col": 3,
+                "EditorGroup": 0,
+                "FileName": "../../Downloads/Group_Theory__in_Chinese_/main.tex",
+                "FirstLine": 31,
+                "FoldedLines": "",
+                "Line": 7
+            },
+            {
+                "Col": 20,
+                "EditorGroup": 0,
+                "FileName": "../../Downloads/Group_Theory__in_Chinese_/parts/supplementary/chapter0.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 13
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "../../Downloads/Group_Theory__in_Chinese_/parts/supplementary/module.tex",
+                "FirstLine": 221,
+                "FoldedLines": "",
+                "Line": 254
+            },
+            {
+                "Col": 225,
+                "EditorGroup": 0,
+                "FileName": "../../Downloads/Group_Theory__in_Chinese_/parts/part1/chapter4.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 5
             }
         ],
         "MasterFile": "",

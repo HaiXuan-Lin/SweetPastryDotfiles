@@ -1,0 +1,37 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/appendix/chapter5.tex",
+    "labels": [
+    ],
+    "modified": "Wed Aug 5 13:17:06 2026",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#一维 δ-势多体相互作用问题的可积性#40"
+    ],
+    "usercommands": [
+        [
+            "Y",
+            "Y"
+        ],
+        [
+            "",
+            "\\sum_{i<j}"
+        ],
+        [
+            "",
+            "\\sum_{i=1}"
+        ],
+        [
+            "",
+            "\\hat{H}"
+        ]
+    ]
+}

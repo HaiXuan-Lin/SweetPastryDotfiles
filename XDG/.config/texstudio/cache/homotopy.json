@@ -1,0 +1,64 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/part1/figures/homotopy.tikz",
+    "labels": [
+    ],
+    "modified": "Wed Aug 5 13:17:04 2026",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\frontpath",
+            "\\frontpath"
+        ],
+        [
+            "",
+            "%color%lightblue"
+        ],
+        [
+            "",
+            "%color%lightblue"
+        ],
+        [
+            "\\h",
+            "\\h"
+        ],
+        [
+            "\\fullpath",
+            "\\fullpath"
+        ],
+        [
+            "\\blobback",
+            "\\blobback"
+        ],
+        [
+            "",
+            "%color%darkblue"
+        ],
+        [
+            "\\h",
+            "\\h"
+        ],
+        [
+            "",
+            "%color%darkblue"
+        ],
+        [
+            "\\blobfront",
+            "\\blobfront"
+        ],
+        [
+            "\\backpath",
+            "\\backpath"
+        ]
+    ]
+}

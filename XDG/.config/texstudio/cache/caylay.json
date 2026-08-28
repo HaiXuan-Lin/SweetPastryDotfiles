@@ -1,0 +1,32 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/Users/Lin/Downloads/Group_Theory__in_Chinese_/parts/part1/figures/caylay.tikz",
+    "labels": [
+    ],
+    "modified": "Wed Aug 5 13:17:04 2026",
+    "packages": [
+    ],
+    "refs": [
+    ],
+    "toc": [
+    ],
+    "usercommands": [
+        [
+            "\\quadrant",
+            "\\quadrant"
+        ],
+        [
+            "",
+            "\\bar{\\mathsf1}"
+        ],
+        [
+            "",
+            "\\bar{\\mathsf0}"
+        ]
+    ]
+}

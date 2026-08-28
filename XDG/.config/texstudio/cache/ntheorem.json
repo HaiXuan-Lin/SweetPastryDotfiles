@@ -27,6 +27,38 @@
             "\\begin{beweis}"
         ],
         [
+            "beispiel",
+            "\\end{beispiel}"
+        ],
+        [
+            "beispiel",
+            "\\begin{beispiel}"
+        ],
+        [
+            "Beispiel",
+            "\\end{Beispiel}"
+        ],
+        [
+            "Beispiel",
+            "\\begin{Beispiel}"
+        ],
+        [
+            "satz",
+            "\\end{satz}"
+        ],
+        [
+            "satz",
+            "\\begin{satz}"
+        ],
+        [
+            "Proof",
+            "\\end{Proof}"
+        ],
+        [
+            "Proof",
+            "\\begin{Proof}"
+        ],
+        [
             "Remark",
             "\\end{Remark}"
         ],
@@ -43,100 +75,12 @@
             "\\begin{corollary}"
         ],
         [
-            "beispiel",
-            "\\end{beispiel}"
-        ],
-        [
-            "beispiel",
-            "\\begin{beispiel}"
-        ],
-        [
-            "Bemerkung",
-            "\\end{Bemerkung}"
-        ],
-        [
-            "Bemerkung",
-            "\\begin{Bemerkung}"
-        ],
-        [
-            "Lemma",
-            "\\end{Lemma}"
-        ],
-        [
-            "Lemma",
-            "\\begin{Lemma}"
-        ],
-        [
-            "Proof",
-            "\\end{Proof}"
-        ],
-        [
-            "Proof",
-            "\\begin{Proof}"
-        ],
-        [
-            "\\fileversion",
-            "\\fileversion"
-        ],
-        [
-            "Theorem",
-            "\\end{Theorem}"
-        ],
-        [
-            "Theorem",
-            "\\begin{Theorem}"
-        ],
-        [
-            "Satz",
-            "\\end{Satz}"
-        ],
-        [
-            "Satz",
-            "\\begin{Satz}"
-        ],
-        [
-            "bemerkung",
-            "\\end{bemerkung}"
-        ],
-        [
-            "bemerkung",
-            "\\begin{bemerkung}"
-        ],
-        [
             "Anmerkung",
             "\\end{Anmerkung}"
         ],
         [
             "Anmerkung",
             "\\begin{Anmerkung}"
-        ],
-        [
-            "Beispiel",
-            "\\end{Beispiel}"
-        ],
-        [
-            "Beispiel",
-            "\\begin{Beispiel}"
-        ],
-        [
-            "Definition",
-            "\\end{Definition}"
-        ],
-        [
-            "Definition",
-            "\\begin{Definition}"
-        ],
-        [
-            "proposition",
-            "\\end{proposition}"
-        ],
-        [
-            "proposition",
-            "\\begin{proposition}"
-        ],
-        [
-            "\\docdate",
-            "\\docdate"
         ],
         [
             "korollar",
@@ -147,76 +91,12 @@
             "\\begin{korollar}"
         ],
         [
-            "proof",
-            "\\end{proof}"
-        ],
-        [
-            "proof",
-            "\\begin{proof}"
-        ],
-        [
-            "anmerkung",
-            "\\end{anmerkung}"
-        ],
-        [
-            "anmerkung",
-            "\\begin{anmerkung}"
-        ],
-        [
-            "\\basename",
-            "\\basename"
-        ],
-        [
-            "satz",
-            "\\end{satz}"
-        ],
-        [
-            "satz",
-            "\\begin{satz}"
-        ],
-        [
-            "Beweis",
-            "\\end{Beweis}"
-        ],
-        [
-            "Beweis",
-            "\\begin{Beweis}"
-        ],
-        [
-            "definition",
-            "\\end{definition}"
-        ],
-        [
-            "definition",
-            "\\begin{definition}"
-        ],
-        [
             "lemma",
             "\\end{lemma}"
         ],
         [
             "lemma",
             "\\begin{lemma}"
-        ],
-        [
-            "Korollar",
-            "\\end{Korollar}"
-        ],
-        [
-            "Korollar",
-            "\\begin{Korollar}"
-        ],
-        [
-            "Example",
-            "\\end{Example}"
-        ],
-        [
-            "Example",
-            "\\begin{Example}"
-        ],
-        [
-            "\\filedate",
-            "\\filedate"
         ],
         [
             "Proposition",
@@ -227,20 +107,12 @@
             "\\begin{Proposition}"
         ],
         [
-            "remark",
-            "\\end{remark}"
+            "Lemma",
+            "\\end{Lemma}"
         ],
         [
-            "remark",
-            "\\begin{remark}"
-        ],
-        [
-            "theorem",
-            "\\end{theorem}"
-        ],
-        [
-            "theorem",
-            "\\begin{theorem}"
+            "Lemma",
+            "\\begin{Lemma}"
         ],
         [
             "Corollary",
@@ -251,12 +123,140 @@
             "\\begin{Corollary}"
         ],
         [
+            "proposition",
+            "\\end{proposition}"
+        ],
+        [
+            "proposition",
+            "\\begin{proposition}"
+        ],
+        [
+            "bemerkung",
+            "\\end{bemerkung}"
+        ],
+        [
+            "bemerkung",
+            "\\begin{bemerkung}"
+        ],
+        [
+            "anmerkung",
+            "\\end{anmerkung}"
+        ],
+        [
+            "anmerkung",
+            "\\begin{anmerkung}"
+        ],
+        [
+            "proof",
+            "\\end{proof}"
+        ],
+        [
+            "proof",
+            "\\begin{proof}"
+        ],
+        [
+            "Beweis",
+            "\\end{Beweis}"
+        ],
+        [
+            "Beweis",
+            "\\begin{Beweis}"
+        ],
+        [
+            "Theorem",
+            "\\end{Theorem}"
+        ],
+        [
+            "Theorem",
+            "\\begin{Theorem}"
+        ],
+        [
+            "Example",
+            "\\end{Example}"
+        ],
+        [
+            "Example",
+            "\\begin{Example}"
+        ],
+        [
+            "theorem",
+            "\\end{theorem}"
+        ],
+        [
+            "theorem",
+            "\\begin{theorem}"
+        ],
+        [
+            "\\filedate",
+            "\\filedate"
+        ],
+        [
+            "Definition",
+            "\\end{Definition}"
+        ],
+        [
+            "Definition",
+            "\\begin{Definition}"
+        ],
+        [
+            "\\fileversion",
+            "\\fileversion"
+        ],
+        [
+            "\\basename",
+            "\\basename"
+        ],
+        [
+            "Bemerkung",
+            "\\end{Bemerkung}"
+        ],
+        [
+            "Bemerkung",
+            "\\begin{Bemerkung}"
+        ],
+        [
+            "Korollar",
+            "\\end{Korollar}"
+        ],
+        [
+            "Korollar",
+            "\\begin{Korollar}"
+        ],
+        [
+            "Satz",
+            "\\end{Satz}"
+        ],
+        [
+            "Satz",
+            "\\begin{Satz}"
+        ],
+        [
+            "\\docdate",
+            "\\docdate"
+        ],
+        [
+            "remark",
+            "\\end{remark}"
+        ],
+        [
+            "remark",
+            "\\begin{remark}"
+        ],
+        [
             "example",
             "\\end{example}"
         ],
         [
             "example",
             "\\begin{example}"
+        ],
+        [
+            "definition",
+            "\\end{definition}"
+        ],
+        [
+            "definition",
+            "\\begin{definition}"
         ]
     ]
 }
