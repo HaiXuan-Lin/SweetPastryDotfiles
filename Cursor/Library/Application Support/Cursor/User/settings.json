@@ -32,7 +32,8 @@
         "*.exe": "default",
         "*.PDF": "latex-workshop-pdf-hook",
         "*.pdf": "latex-workshop-pdf-hook",
-        "*.md": "default"
+        "*.md": "default",
+        "*.csv": "gc-excelviewer-csv-editor"
     },
     "editor.autoClosingBrackets": "beforeWhitespace",
     "editor.autoClosingDelete": "always",
@@ -159,7 +160,12 @@
         "10.26.0.251": "linux",
         "10.26.0.191": "linux",
         "10.26.3.46": "linux",
-        "10.26.0.254": "linux"
+        "10.26.0.254": "linux",
+        "10.26.0.254-hychen": "linux",
+        "10.26.0.254-yhchen": "linux",
+        "10.26.0.251-awu": "linux",
+        "10.26.0.191-hjchen": "linux",
+        "10.26.0.254-hjchen": "linux"
     },
     "diffEditor.ignoreTrimWhitespace": true,
     "diffEditor.hideUnchangedRegions.enabled": true,
@@ -477,5 +483,6 @@
         "plaintext",
         "markdown",
         "scminput"
-    ]
+    ],
+    "cursor.composer.queueMessageDefaultBehavior": "steer"
 }

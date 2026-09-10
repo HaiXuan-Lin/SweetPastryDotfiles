@@ -145,9 +145,11 @@
   "terminal.integrated.smoothScrolling": true,
   // <<< VSCode Terminal <<<
   // >>> VSCode Animations >>>
-  "custom-ui-style.external.imports": [],
+  "custom-ui-style.external.imports": [
+    "file:///Users/Lin/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.8/dist/updateHandler.js"
+  ],
   "animations.CursorAnimation": true,
-  "animations.Install-Method": "Custom UI Style",
+  "animations.Install-Method": "Custom CSS and JS",
   "animations.UseCursorColorForCursorAnimation": true,
   "animations.CursorAnimationOptions": {
     "TrailLength": 4
@@ -521,5 +523,6 @@
   "workbench.preferredHighContrastLightColorTheme": "One Dark Pro Night Flat",
   "application.shellEnvironmentResolutionTimeout": 20,
   "workbench.colorTheme": "One Dark Pro Night Flat",
+  "gitlens.graph.details.location": "auto",
   // <<< New configurations will be HEAR <<<
 }
