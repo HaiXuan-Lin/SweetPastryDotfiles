@@ -474,7 +474,9 @@
     "**/.svn": false,
     "**/Thumbs.db": false
   },
-  "vscode_custom_css.imports": [],
+  "vscode_custom_css.imports": [
+    "file:///Users/Lin/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.8/dist/updateHandler.js"
+  ],
   "fortran.notifications.releaseNotes": false,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
