@@ -144,17 +144,6 @@
   "terminal.integrated.macOptionIsMeta": true,
   "terminal.integrated.smoothScrolling": true,
   // <<< VSCode Terminal <<<
-  // >>> VSCode Animations >>>
-  "custom-ui-style.external.imports": [
-    "file:///Users/Lin/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.8/dist/updateHandler.js"
-  ],
-  "animations.CursorAnimation": true,
-  "animations.Install-Method": "Custom CSS and JS",
-  "animations.UseCursorColorForCursorAnimation": true,
-  "animations.CursorAnimationOptions": {
-    "TrailLength": 4
-  },
-  // <<< VSCode Animation <<<
   // >>> VSCode Remote >>>
   "remoteHub.commitDirectlyWarning": "off",
   "remote.SSH.showLoginTerminal": true,
@@ -452,10 +441,6 @@
   "todohighlight.isEnable": false,
   // <<< TODO Highlight <<<
   // >>> Vscode-icons >>>
-  "animations.Enabled": true,
-  "apc.imports": [
-    "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
-  ],
   // <<< Vscode-icons <<<
   // >>> Spell Checker >>>
   "cSpell.userWords": [
@@ -524,5 +509,6 @@
   "application.shellEnvironmentResolutionTimeout": 20,
   "workbench.colorTheme": "One Dark Pro Night Flat",
   "gitlens.graph.details.location": "auto",
+  "gitlens.ai.enabled": false,
   // <<< New configurations will be HEAR <<<
 }
